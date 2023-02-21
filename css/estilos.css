@@ -52,6 +52,18 @@
   color: #fff;
 }
 
+.background-color-psiquico {
+  background: linear-gradient(180deg, #ff48b9 50%, #e64990 50%);
+  background-color: #e41081;
+  color: #fff;
+}
+
+.background-color-hielo{
+  background: linear-gradient(180deg, #4d54d8 50%, #0317af 50%);
+  background-color: #1c81df;
+  color: #fff;
+}
+
 
 .card {
   background-color: #fff;
@@ -74,6 +86,7 @@
 .reproductor_audio .item {
   flex-basis: 90%;
 }
+<<<<<<< HEAD
 .footerBg
 {
  background-color: red;
@@ -107,3 +120,30 @@
   text-decoration: none;
 }
 
+=======
+
+
+/* Detalles pokemon*/
+
+#nombrePoke {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+
+}
+
+.descripcionPokemon {
+  font-weight: bold;
+}
+
+.titulosDescripcion {
+  color: black;
+}
+
+.evolucionPokemon {
+  margin-bottom: 0 !important;
+  border-style: none;
+  border-radius: 0;
+  background-color: darkgrey;
+}
+>>>>>>> 34631409bb2fe1fc6848cf5d6d5bfbc2cb370066
