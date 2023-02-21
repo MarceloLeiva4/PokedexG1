@@ -1,8 +1,8 @@
-.navbar-toggler {
-  border: none;
-  color: brown;
+.botonesNavbar
+{
+  color: crimson;
+  border-style: none;
 }
-
 .abilities span {
   font-family: "Flexo-Medium", arial, sans-serif;
   border-radius: 3px;
@@ -74,3 +74,36 @@
 .reproductor_audio .item {
   flex-basis: 90%;
 }
+.footerBg
+{
+ background-color: red;
+}
+.tituloFooter
+{
+  text-align: center;
+  font-size: 50px;
+}
+.iconosFooter
+{
+  text-align: center;
+  font-size: 40px;
+  justify-content: center ;
+  display: flex;
+  
+}
+.textoCopy
+{
+ text-align: center;
+ font-size: 30px;
+}
+.imgPokebola
+{
+  width: 100px;
+  height: 100px;
+}
+.linksFooter
+{
+  font-size: 20px;
+  text-decoration: none;
+}
+
