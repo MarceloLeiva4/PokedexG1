@@ -64,6 +64,25 @@
   color: #fff;
 }
 
+.background-color-tierra{
+  background: linear-gradient(180deg, #9c7322 50%, #be7810 50%);
+  background-color: #ab7510;
+  color: #fff;
+}
+
+.background-color-roca{
+  background: linear-gradient(180deg, #845904 50%, #815006 50%);
+  background-color: #603f02;
+  color: #fff;
+}
+
+.background-color-electrico{
+  background: linear-gradient(180deg, #d6a33d 50%, #eeab47 50%);
+  background-color: #e9e934;
+  color: #fff;
+}
+
+
 
 .card {
   background-color: #fff;
