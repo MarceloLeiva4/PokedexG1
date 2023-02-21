@@ -167,7 +167,7 @@
 }
 
 .container {
-  margin-top: 89px;
+  margin-top: 15px;
 }
 .row {
   color: black;
@@ -191,7 +191,6 @@
 .nosotros{
   min-height: 100vh;
   background-image: url(../img/Pokemonfondo.jpg);
-  no-repeat center center fixed;
   background-size: cover;
 
 }
