@@ -166,8 +166,39 @@
   background-color: darkgrey;
 }
 
+.container {
+  margin-top: 89px;
+}
+.row {
+  color: black;
+  margin-left: 10px;
+}
 
+.borderojoquienessomos {
+  border: rgba(183,14,33,255) solid 5px;
+}
+.quienesSomos {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 10% auto;
+  border: auto;
+  padding: 7p 0px;
+  object-fit: cover;
+}
 
+.nosotros{
+  min-height: 100vh;
+  background-image: url(../img/Pokemonfondo.jpg);
+  no-repeat center center fixed;
+  background-size: cover;
+
+}
+.h3{
+  color: rgb(31, 11, 11);
+  
+}
 /* Media queries */
 
 @media all and (max-width: 560px) {
