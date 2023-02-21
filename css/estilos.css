@@ -111,3 +111,15 @@
   border-radius: 0;
   background-color: darkgrey;
 }
+
+
+/* Media queries */
+
+@media all and (max-width: 560px) {
+  .descripcionPokemon {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+
+}
