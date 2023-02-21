@@ -8,6 +8,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -49,7 +53,7 @@
               <img
                 src="./img/pokemon1.jpg"
                 class="d-block w-100"
-                alt="..."
+                alt="Imagen 1 carrusel pokemon"
                 height="500px"
               />
             </div>
@@ -57,7 +61,7 @@
               <img
                 src="./img/pokemon2.jpg"
                 class="d-block w-100"
-                alt="..."
+                alt="Imagen 2 carrusel pokemon"
                 height="500px"
               />
             </div>
@@ -65,7 +69,7 @@
               <img
                 src="./img/pokemon3.jpg"
                 class="d-block w-100"
-                alt="..."
+                alt="Imagen 3 carrusel pokemon"
                 height="500px"
               />
             </div>
@@ -90,11 +94,11 @@
           </button>
         </div>
       </section>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container">
           <a class="navbar-brand" href="#">Pokedex</a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -107,353 +111,390 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="./pages/detalles.html"
                   >Detalles</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Nosotros</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
+             
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex  " role="search">
               <input
                 class="form-control me-2"
                 type="search"
                 placeholder="Buscar"
                 aria-label="Buscar"
               />
-              <button class="btn btn-outline-success" type="submit">
-                Search
+              <button class="btn btn-outline-success " type="submit">
+                <i class="bi bi-search botonesNavbar"></i>
               </button>
             </form>
           </div>
         </div>
       </nav>
     </header>
-
-    <!-- card pokemons -->
+    <main>
+          <!-- card pokemons -->
     <section class="bg-light py-4 my-5">
-      <div class="container">
-        <div class="row">
-          <!-- botones ordenar -->
-
-          <div class="section mb-5 row-cols-lg-6">
-            <button type="button" class="item btn btn-primary">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-shuffle"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"
-                />
-                <path
-                  d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"
-                />
-              </svg>
-              ¡Sorprendeme!
-            </button>
-            <div class="row-cols-lg-6">
-              <div class="dropdown">
-                <button
-                  class="btn btn-dark dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton2"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+        <div class="container">
+          <div class="row">
+            <!-- botones ordenar -->
+  
+            <div class="section mb-5 row-cols-lg-6">
+              <button type="button" class="item btn btn-primary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-shuffle"
+                  viewBox="0 0 16 16"
                 >
-                  <img
-                    src="https://img.icons8.com/color/24/null/pokeball--v1.png"
+                  <path
+                    fill-rule="evenodd"
+                    d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"
                   />
-                  Ordenar por
-                </button>
-                <ul
-                  class="dropdown-menu dropdown-menu-dark"
-                  aria-labelledby="dropdownMenuButton2"
-                >
-                  <li>
-                    <a class="dropdown-item active" href="pages/error404.html">Número superior</a>
-                  </li>
-                  <li><a class="dropdown-item" href="pages/error404.html">Número inferior</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="pages/error404.html">A-Z</a></li>
-                  <li><a class="dropdown-item" href="pages/error404.html">Z-A</a></li>
-                </ul>
+                  <path
+                    d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"
+                  />
+                </svg>
+                ¡Sorprendeme!
+              </button>
+              <div class="row-cols-lg-6">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-dark dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/24/null/pokeball--v1.png"
+                    />
+                    Ordenar por
+                  </button>
+                  <ul
+                    class="dropdown-menu dropdown-menu-dark"
+                    aria-labelledby="dropdownMenuButton2"
+                  >
+                    <li>
+                      <a class="dropdown-item active" href="pages/error404.html">Número superior</a>
+                    </li>
+                    <li><a class="dropdown-item" href="pages/error404.html">Número inferior</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="pages/error404.html">A-Z</a></li>
+                    <li><a class="dropdown-item" href="pages/error404.html">Z-A</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- fin botones ordenar -->
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/bulbasaur.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-
-              <div class="card-body">
-                <p>N°. 0001</p>
-                <h5 class="card-title">Bulbasaur</h5>
-                <div class="abilities mb-5">
-                  <span class="badge background-color-planta">Planta</span>
-                  <span class="badge background-color-veneno">Veneno</span>
+            <!-- fin botones ordenar -->
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/bulbasaur.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+  
+                <div class="card-body">
+                  <p>N°. 0001</p>
+                  <h5 class="card-title">Bulbasaur</h5>
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-planta">Planta</span>
+                    <span class="badge background-color-veneno">Veneno</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
+<<<<<<< HEAD
+=======
 
                 <a href="./pages/detalles/bulbasur.html" class="btn btn-primary">Ver detalle</a>
+>>>>>>> 34631409bb2fe1fc6848cf5d6d5bfbc2cb370066
               </div>
             </div>
-          </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/ivysaur.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-
-              <div class="card-body">
-                <p>N°. 0002</p>
-                <h5 class="card-title">Ivysaur</h5>
-                <div class="abilities mb-5">
-                  <span class="badge background-color-planta">Planta</span>
-                  <span class="badge background-color-veneno">Veneno</span>
+  
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/ivysaur.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+  
+                <div class="card-body">
+                  <p>N°. 0002</p>
+                  <h5 class="card-title">Ivysaur</h5>
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-planta">Planta</span>
+                    <span class="badge background-color-veneno">Veneno</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
-          </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/venusaur.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-              <div class="card-body">
-                <p>N°. 0003</p>
-                <h5 class="card-title">Venusaur</h5>
-
-                <div class="abilities mb-5">
-                  <span class="badge background-color-planta">Planta</span>
-                  <span class="badge background-color-veneno">Veneno</span>
+  
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/venusaur.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+                <div class="card-body">
+                  <p>N°. 0003</p>
+                  <h5 class="card-title">Venusaur</h5>
+  
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-planta">Planta</span>
+                    <span class="badge background-color-veneno">Veneno</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
-          </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/charmander.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-              <div class="card-body">
-                <p>N°. 0004</p>
-                <h5 class="card-title">Charmander</h5>
-
-                <div class="abilities mb-5">
-                  <span class="badge background-color-fuego">Fuego</span>
+  
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/charmander.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+                <div class="card-body">
+                  <p>N°. 0004</p>
+                  <h5 class="card-title">Charmander</h5>
+  
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-fuego">Fuego</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
-          </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/charmeleon.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-              <div class="card-body">
-                <p>N°. 0005</p>
-                <h5 class="card-title">Charmeleon</h5>
-                <div class="abilities mb-5">
-                  <span class="badge background-color-fuego">Fuego</span>
+  
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/charmeleon.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+                <div class="card-body">
+                  <p>N°. 0005</p>
+                  <h5 class="card-title">Charmeleon</h5>
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-fuego">Fuego</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
-          </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/charizard.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-
-              <div class="card-body">
-                <p>N°. 0006</p>
-                <h5 class="card-title">Charizard</h5>
-
-                <div class="abilities mb-5">
-                  <span class="badge background-color-fuego">Fuego</span>
-                  <span class="badge background-color-volador">Volador</span>
+  
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/charizard.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+  
+                <div class="card-body">
+                  <p>N°. 0006</p>
+                  <h5 class="card-title">Charizard</h5>
+  
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-fuego">Fuego</span>
+                    <span class="badge background-color-volador">Volador</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
-          </div>
-
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/squirtle.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-              <div class="card-body">
-                <p>N°. 0007</p>
-                <h5 class="card-title">Squirtle</h5>
-
-                <div class="abilities mb-5">
-                  <span class="badge background-color-agua">Agua</span>
+  
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/squirtle.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+                <div class="card-body">
+                  <p>N°. 0007</p>
+                  <h5 class="card-title">Squirtle</h5>
+  
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-agua">Agua</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/wartortle.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-              <div class="card-body">
-                <p>N°. 0008</p>
-                <h5 class="card-title">Wartortle</h5>
-
-                <div class="abilities mb-5">
-                  <span class="badge background-color-agua">Agua</span>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/wartortle.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+                <div class="card-body">
+                  <p>N°. 0008</p>
+                  <h5 class="card-title">Wartortle</h5>
+  
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-agua">Agua</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/blastoise.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-              <div class="card-body">
-                <p>N°. 0009</p>
-                <h5 class="card-title">Blastoise</h5>
-
-                <div class="abilities mb-5">
-                  <span class="badge background-color-agua">Agua</span>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/blastoise.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+                <div class="card-body">
+                  <p>N°. 0009</p>
+                  <h5 class="card-title">Blastoise</h5>
+  
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-agua">Agua</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/caterpie.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-              <div class="card-body">
-                <p>N°. 0010</p>
-                <h5 class="card-title">Caterpie</h5>
-
-                <div class="abilities mb-5">
-                  <span class="badge background-color-bicho">Bicho</span>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/caterpie.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+                <div class="card-body">
+                  <p>N°. 0010</p>
+                  <h5 class="card-title">Caterpie</h5>
+  
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-bicho">Bicho</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/metapod.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-              <div class="card-body">
-                <p>N°. 0011</p>
-                <h5 class="card-title">Metapod</h5>
-
-                <div class="abilities mb-5">
-                  <span class="badge background-color-bicho">Bicho</span>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/metapod.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+                <div class="card-body">
+                  <p>N°. 0011</p>
+                  <h5 class="card-title">Metapod</h5>
+  
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-bicho">Bicho</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img
-                src="img/butterfree.png"
-                class="card-image-top"
-                alt="thumbnail"
-              />
-              <div class="card-body">
-                <p>N°. 0012</p>
-                <h5 class="card-title">Butterfree</h5>
-
-                <div class="abilities mb-5">
-                  <span class="badge background-color-bicho">Bicho</span>
-                  <span class="badge background-color-volador">Volador</span>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card my-3">
+                <img
+                  src="img/butterfree.png"
+                  class="card-image-top"
+                  alt="thumbnail"
+                />
+                <div class="card-body">
+                  <p>N°. 0012</p>
+                  <h5 class="card-title">Butterfree</h5>
+  
+                  <div class="abilities mb-5">
+                    <span class="badge background-color-bicho">Bicho</span>
+                    <span class="badge background-color-volador">Volador</span>
+                  </div>
+  
+                  <a href="#" class="btn btn-primary">Ver detalle</a>
                 </div>
-
-                <a href="#" class="btn btn-primary">Ver detalle</a>
               </div>
             </div>
           </div>
         </div>
+      </section>
+  
+      <div class="reproductor_audio mb-5">
+        <audio class="item" controls autoplay loop>
+          <source src="audio/01 - Opening Movie.mp3" type="audio/mp3" />
+        </audio>
       </div>
-    </section>
 
-    <div class="reproductor_audio mb-5">
-      <audio class="item" controls autoplay loop>
-        <source src="audio/01 - Opening Movie.mp3" type="audio/mp3" />
-      </audio>
-    </div>
+    </main>
+    <footer  >
+        <div class="d-flex justify-content-center">
+            <p class="tituloFooter">Pokedex</p>
+            <a href="./index.html">
+                <img src="./img/pokebola.png" alt="" class="imgPokebola">
+            </a>
+            
+        </div>
+       
+        <div class="iconosFooter" >
+           
+                    <a class="text-decoration-none link-secondary" href="./pages/error404.html" >
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                
+                
+                    <a class="text-decoration-none link-secondary"href="./pages/error404.html"><i class="bi bi-whatsapp"></i></a>
+                
+                
+                    <a class="text-decoration-none link-secondary" href="./pages/error404.html">
+                        <i class="bi bi-github"></i>
+                    </a>
+               
+            
+            
+            
+        </div>
+        <section class="row">
+            <aside class="col-md-3">
+              <ul >
+                <li >
+                    <a class="text-decoration-none link-secondary linksFooter" href="./pages/detalles.html">Detalles</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none link-secondary linksFooter" href="./pages/nosotros.html">Acerca de nosotros</a>
+                    
+                </li>
+              </ul>
+                
+            </aside>
+
+        </section>
+       <p class="textoCopy">&copy; Todos los derechos son reservados
+
+       </p> 
+    </footer>
+
+  
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
