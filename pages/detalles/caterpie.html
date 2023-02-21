@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+  />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../css/estilos.css" />
+    <title>Charmander</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../../img/pokemon1.jpg"
+                class="d-block w-100"
+                alt="..."
+                height="500px"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../../img/pokemon2.jpg"
+                class="d-block w-100"
+                alt="..."
+                height="500px"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../../img/pokemon3.jpg"
+                class="d-block w-100"
+                alt="..."
+                height="500px"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container">
+          <a class="navbar-brand" href="../../index.html">Pokedex</a>
+          <button
+            class="navbar-toggler "
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html"
+                  >Detalles</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex  " role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Buscar"
+              />
+              <button class="btn btn-outline-success " type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search botonesNavbar" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Descripcion pokemon-->
+    <main class="paginaDetalles">
+      <section>
+        <h5 id="nombrePoke">N° 010 - Caterpie</h5>
+          <div class="card mx-5 mb-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="../../img/caterpie.png"
+                  class="img-fluid rounded-start"
+                  alt="caterpie"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title titulosDescripcion">
+                    Para protegerse, despide un hedor horrible por las antenas con el que repele a sus enemigos.
+                  </h5>
+                  <div class="card text-bg-primary m" style="max-width:auto;">
+                  <div class="card-header">Version</div>
+                  <div class="container text-center">
+                    <div class="row row-cols-2">
+                      <div class="col"><p class="descripcionPokemon">Altura</p>
+                        <p>0,3 m</p></div>
+                      <div class="col"><p class="descripcionPokemon">Categoria</p>
+                        <p>Gusano</p></div>
+                      <div class="col"><p class="descripcionPokemon">Peso</p>
+                        <p>2,9 Kg </p></div>
+                      <div class="col"><p class="descripcionPokemon">Habilidad</p>
+                        <p>Polvo escudo/p></div>
+                    </div>
+                    <div class="col"> <p class="descripcionPokemon">Género</p>
+                      <p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-gender-female"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-gender-male"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"
+                          />
+                        </svg>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            <!--InfoPokemon-->
+                <h5 class="titulosDescripcion mt-2">Tipo</h5>
+                <div class="abilities mb-5">
+                  <span class="badge background-color-bicho">Bicho</span>
+                </div>
+                <h5 class="titulosDescripcion mt-2">Debilidad</h5>
+                <div class="abilities mb-5">
+                  <span class="badge background-color-fuego">Fuego</span>
+                  <span class="badge background-color-volador">Volador</span>
+                  <span class="badge background-color-roca">Roca</span>
+                </div>
+              </div>
+            </div>
+              <!--EvolucionPokemon-->
+            <article>
+              <h4 class="card-title m-3 titulosDescripcion">Evoluciones</h4>
+              <div class="card-group">
+                <div class="card evolucionPokemon">
+                  <img src="../../img/caterpie.png" class="card-img-top" alt="Caterpie">
+                  <div class="card-body">
+                    <h5 class="titulosDescripcion">N°010 - Caterpie</h5>
+                    <span class="badge background-color-bicho">Bicho</span>
+                  </div>
+                </div>
+                <div class="card evolucionPokemon">
+                  <img src="../../img/metapod.png" class="card-img-top" alt="Metapod">
+                  <div class="card-body">
+                    <h5 class="card-title titulosDescripcion">N°0011 - Metapod</h5>
+                    <span class="badge background-color-bicho">Bicho</span>
+                  </div>
+                </div>
+                <div class="card evolucionPokemon">
+                  <img src="../../img/butterfree.png" class="card-img-top" alt="Butterfree">
+                  <div class="card-body">
+                    <h5 class="card-title titulosDescripcion">N° 0012 - Butterfree</h5>
+                    <span class="badge background-color-bicho">Bicho</span>
+                    <span class="badge background-color-volador">Volador</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </article>  
+      </section>
+
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <footer  >
+      <div class="d-flex justify-content-center">
+          <p class="tituloFooter">Pokedex</p>
+          <a href="../../index.html">
+              <img src="../../img/pokebola.png"  alt="pokebola" class="imgPokebola">
+          </a>
+          
+      </div>
+     
+      <div class="iconosFooter" >
+         
+                  <a class="text-decoration-none link-secondary" href="../error404.html" >
+                      <i class="bi bi-facebook"></i>
+                  </a>
+              
+                  <a class="text-decoration-none link-secondary"href="../pages/error404.html"><i class="bi bi-whatsapp"></i></a>
+                  <a class="text-decoration-none link-secondary" href="../pages/error404.html"><i class="bi bi-github"></i></a>     
+          
+      </div>
+      <section>
+          <div class="col-md-3">
+            <ul >
+              <li >
+                  <a class="text-decoration-none link-secondary linksFooter" href="../../index.html">Detalles</a>
+              </li>
+              <li>
+                  <a class="text-decoration-none link-secondary linksFooter" href="../../pages/nosotros.html">Acerca de nosotros</a>
+                  
+              </li>
+            </ul>
+              
+          </div>
+
+      </section>
+     <p class="textoCopy">&copy; Todos los derechos son reservados
+
+     </p> 
+  </footer>
+  </body>
+</html>
