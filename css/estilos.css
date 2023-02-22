@@ -200,13 +200,88 @@
 }
 /* Media queries */
 
-@media all and (max-width: 560px) {
+
+@media screen and (max-width: 576px) {
   .descripcionPokemon {
     font-weight: bold;
     font-size: 15px;
   }
-
-
+  .imgPokebola
+{
+  width: 80px;
+  height: 80px;
 }
+.textoCopy
+{
+  font-size: 20px;
+}
+}
+@media screen and (min-width:577px) and (max-width: 768px){
+  .imgPokebola
+  {
+    width: 100px;
+    height: 100px;
+  }
+  .textoCopy
+  {
+    font-size: 30px;
+  }
+  .linksFooter
+  {
+    font-size: 25px;
+  }
+  
+}
+@media screen and (min-width:769px) and (max-width: 992px)
+{
+  .imgPokebola
+  {
+    width: 120px;
+    height: 120px;
+  }
+  .textoCopy
+  {
+    font-size: 40px;
+  }
+  .linksFooter
+  {
+    font-size: 30px;
+  }
+  .tituloFooter
+  {
+    font-size: 70px;
+  }
+  .iconosFooter
+  {
+    font-size: 70px;
+  }
+}
+@media screen and (min-width:993px) and (max-width: 1400px)
+{
+  .imgPokebola
+  {
+    width: 120px;
+    height: 120px;
+  }
+  .textoCopy
+  {
+    font-size: 40px;
+  }
+  .linksFooter
+  {
+    font-size: 30px;
+  }
+  .tituloFooter
+  {
+    font-size: 90px;
+  }
+  .iconosFooter
+  {
+    font-size: 90px;
+  }
+}
+
+
+
 
 
