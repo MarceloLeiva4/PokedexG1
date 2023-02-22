@@ -1,8 +1,17 @@
-.botonesNavbar
-{
-  color: crimson;
+.botonesNavbar {
+  color: hsl(0, 0%, 95%);
   border-style: none;
 }
+
+.contenedor-iconos-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-contenedor-footer {
+  flex-grow: 0;
+}
+
 .abilities span {
   font-family: "Flexo-Medium", arial, sans-serif;
   border-radius: 3px;
@@ -58,31 +67,29 @@
   color: #fff;
 }
 
-.background-color-hielo{
+.background-color-hielo {
   background: linear-gradient(180deg, #4d54d8 50%, #0317af 50%);
   background-color: #1c81df;
   color: #fff;
 }
 
-.background-color-tierra{
+.background-color-tierra {
   background: linear-gradient(180deg, #9c7322 50%, #be7810 50%);
   background-color: #ab7510;
   color: #fff;
 }
 
-.background-color-roca{
+.background-color-roca {
   background: linear-gradient(180deg, #845904 50%, #815006 50%);
   background-color: #603f02;
   color: #fff;
 }
 
-.background-color-electrico{
+.background-color-electrico {
   background: linear-gradient(180deg, #d6a33d 50%, #eeab47 50%);
   background-color: #e9e934;
   color: #fff;
 }
-
-
 
 .card {
   background-color: #fff;
@@ -105,39 +112,38 @@
 .reproductor_audio .item {
   flex-basis: 90%;
 }
-.footerBg
-{
- background-color: red;
+.footerBg {
+  background-color: red;
 }
-.tituloFooter
-{
+.tituloFooter {
   text-align: center;
-  font-size: 50px;
+  font-size: 3rem;
 }
-.iconosFooter
-{
+
+.icono-pokebola-centrado{
+  align-items: space-between;
+}
+
+
+
+.iconosFooter {
   text-align: center;
   font-size: 40px;
-  justify-content: center ;
+  justify-content: center;
   display: flex;
-  
 }
-.textoCopy
-{
- text-align: center;
- font-size: 30px;
+.textoCopy {
+  display: inline-flex;
+  font-size: 1.5rem;
 }
-.imgPokebola
-{
-  width: 100px;
-  height: 100px;
+.imgPokebola {
+  width: 3rem;
+  height: 3rem;
 }
-.linksFooter
-{
+.linksFooter {
   font-size: 20px;
   text-decoration: none;
 }
-
 
 /* Detalles pokemon*/
 
@@ -145,7 +151,6 @@
   text-align: center;
   color: black;
   font-size: 50px;
-
 }
 .paginaDetalles {
   background-color: white;
@@ -175,7 +180,7 @@
 }
 
 .borderojoquienessomos {
-  border: rgba(183,14,33,255) solid 5px;
+  border: rgba(183, 14, 33, 255) solid 5px;
 }
 .quienesSomos {
   width: 300px;
@@ -188,100 +193,81 @@
   object-fit: cover;
 }
 
-.nosotros{
+.nosotros {
   min-height: 100vh;
   background-image: url(../img/Pokemonfondo.jpg);
   background-size: cover;
-
 }
-.h3{
+.h3 {
   color: rgb(31, 11, 11);
-  
 }
 /* Media queries */
-
 
 @media screen and (max-width: 576px) {
   .descripcionPokemon {
     font-weight: bold;
     font-size: 15px;
   }
-  .imgPokebola
-{
-  width: 80px;
-  height: 80px;
+  .imgPokebola {
+    width: 80px;
+    height: 80px;
+  }
+  .textoCopy {
+    font-size: 20px;
+  }
 }
-.textoCopy
-{
-  font-size: 20px;
-}
-}
-@media screen and (min-width:577px) and (max-width: 768px){
-  .imgPokebola
-  {
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .imgPokebola {
     width: 100px;
     height: 100px;
   }
-  .textoCopy
-  {
+  .textoCopy {
     font-size: 30px;
   }
-  .linksFooter
-  {
+  .linksFooter {
     font-size: 25px;
   }
-  
 }
-@media screen and (min-width:769px) and (max-width: 992px)
-{
-  .imgPokebola
-  {
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .imgPokebola {
     width: 120px;
     height: 120px;
   }
-  .textoCopy
-  {
+  .textoCopy {
     font-size: 40px;
   }
-  .linksFooter
-  {
+  .linksFooter {
     font-size: 30px;
   }
-  .tituloFooter
-  {
+  .tituloFooter {
     font-size: 70px;
   }
-  .iconosFooter
-  {
+  .iconosFooter {
     font-size: 70px;
   }
 }
-@media screen and (min-width:993px) and (max-width: 1400px)
-{
-  .imgPokebola
-  {
+@media screen and (min-width: 993px) and (max-width: 1400px) {
+  .imgPokebola {
     width: 120px;
     height: 120px;
   }
-  .textoCopy
-  {
+  .textoCopy {
     font-size: 40px;
   }
-  .linksFooter
-  {
+  .linksFooter {
     font-size: 30px;
   }
-  .tituloFooter
-  {
+  .tituloFooter {
     font-size: 90px;
   }
-  .iconosFooter
-  {
+  .iconosFooter {
     font-size: 90px;
   }
 }
 
-
-
-
+.pokemon-imagenes {
+  width: 100%;
+  max-width: 475px;
+  height: auto;
+}
 
